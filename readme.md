@@ -31,7 +31,7 @@ console.log(serializeTypstValue(obj))
 //   "name": "John Doe",
 //   "age": 30,
 //   "isActive": true,
-//   "hobbies": ["reading", "gaming"],
+//   "hobbies": ("reading", "gaming"),
 //   "address": ("street": "123 Main St", "city": "Anytown", "country": "USA")
 // )
 ```
