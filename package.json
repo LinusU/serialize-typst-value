@@ -1,0 +1,19 @@
+{
+  "name": "serialize-typst-value",
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "repository": "LinusU/serialize-typst-value",
+  "keywords": ["typst", "serialize", "typst-value", "format"],
+  "description": "Serialize JavaScript values into Typst data expressions",
+  "exports": {
+    "import": "./index.js",
+    "types": "./index.d.ts"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "devDependencies": {
+    "@js-temporal/polyfill": "^0.5.1"
+  }
+}
